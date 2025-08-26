@@ -1,0 +1,14 @@
+# sources.yaml
+sources:
+  floods:
+    path_pattern: "StormEvents_details-ftp_v1.0_*.csv"
+    description: "NOAA Storm Events flood data per year"
+  wildfires:
+    path_pattern: "modis_*.csv"
+    description: "NASA FIRMS daily fire detections per year"
+  temperature:
+    file: "Global_TAVG_Gridded_1deg.nc"
+    description: "Daily max/min temperature from Berkeley Earth"
+  droughts:
+    file: "dm_export_20000101_20241231.csv"
+    description: "Weekly drought index from USDM"
