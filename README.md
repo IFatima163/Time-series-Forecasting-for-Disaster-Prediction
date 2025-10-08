@@ -39,12 +39,6 @@ An AI-powered decision support system for **disaster risk reduction** and **crim
 **Strengths**: Flood, Wildfire, and Drought forecasting show robust performance with zero errors.  
 **Weaknesses**: Heatwave & Coldwave datasets lack event diversity → ROC-AUC not meaningful, risk of overfitting.  
 
-### Crime Prediction *(planned evaluation)*  
-- Datasets: NSL-KDD, UNSW-NB, CIC-IDS, NYC crime data  
-- Target Outputs: predicted crime counts, risk scores, hotspots, patrol demand  
-- Models: LightGBM, Bi-LSTM, BERT, GAN-based spatio-temporal generators  
-- Status: Pipeline designed; evaluation pending integration  
-
 ## Development Notes  
 - Implemented modular pipeline for disaster & crime forecasting  
 - Integrated rolling CV for robust temporal generalization  
